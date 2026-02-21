@@ -1,0 +1,31 @@
+data,produto,categoria,quantidade,preco_unitario
+2024-01-05,Notebook Dell,Eletrônicos,3,3500.00
+2024-01-07,Mouse Logitech,Eletrônicos,15,120.00
+2024-01-08,Cadeira Gamer,Móveis,2,1800.00
+2024-01-10,Monitor LG 27",Eletrônicos,5,1200.00
+2024-01-12,Teclado Mecânico,Eletrônicos,8,350.00
+2024-01-15,Mesa Escritório,Móveis,3,950.00
+2024-01-18,Headset Sony,Eletrônicos,10,280.00
+2024-01-20,Webcam Logitech,Eletrônicos,7,450.00
+2024-01-22,Estante de Aço,Móveis,4,620.00
+2024-01-25,Notebook Dell,Eletrônicos,2,3500.00
+2024-02-02,Impressora HP,Eletrônicos,3,890.00
+2024-02-05,Cadeira Gamer,Móveis,5,1800.00
+2024-02-07,Mouse Logitech,Eletrônicos,20,120.00
+2024-02-10,Caneta Pilot (cx),Papelaria,30,25.00
+2024-02-12,Papel A4 (resma),Papelaria,50,28.00
+2024-02-15,Monitor LG 27",Eletrônicos,4,1200.00
+2024-02-18,Grampeador,Papelaria,12,45.00
+2024-02-20,Notebook Dell,Eletrônicos,4,3500.00
+2024-02-22,Mesa Escritório,Móveis,2,950.00
+2024-02-25,Headset Sony,Eletrônicos,6,280.00
+2024-03-01,Teclado Mecânico,Eletrônicos,5,350.00
+2024-03-05,Webcam Logitech,Eletrônicos,9,450.00
+2024-03-08,Caneta Pilot (cx),Papelaria,25,25.00
+2024-03-10,Cadeira Gamer,Móveis,3,1800.00
+2024-03-12,Impressora HP,Eletrônicos,2,890.00
+2024-03-15,Papel A4 (resma),Papelaria,40,28.00
+2024-03-18,Monitor LG 27",Eletrônicos,6,1200.00
+2024-03-20,Mouse Logitech,Eletrônicos,18,120.00
+2024-03-22,Notebook Dell,Eletrônicos,5,3500.00
+2024-03-25,Mesa Escritório,Móveis,1,950.00
