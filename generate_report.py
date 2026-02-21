@@ -9,7 +9,7 @@ from datetime import datetime
 
 # ── 1. LER E PROCESSAR O CSV ─────────────────────────────────────────────────
 
-df = pd.read_csv("vendas.csv")
+df = pd.read_csv("sales_data.csv")
 df["total"] = df["quantidade"] * df["preco_unitario"]
 
 total_geral = df["total"].sum()
@@ -24,7 +24,7 @@ top5_produtos = (
 # ── 2. CONFIGURAR DOCUMENTO ───────────────────────────────────────────────────
 
 doc = SimpleDocTemplate(
-    "relatorio_vendas.pdf",
+    "sales_report.pdf",
     pagesize=A4,
     rightMargin=2*cm,
     leftMargin=2*cm,
@@ -156,4 +156,4 @@ story.append(Paragraph(
 # ── 4. GERAR PDF ──────────────────────────────────────────────────────────────
 
 doc.build(story)
-print("✅ Relatório gerado com sucesso: relatorio_vendas.pdf")
+print("✅ Report generated successfully: sales_report.pdf")
