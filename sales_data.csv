@@ -1,31 +1,123 @@
-data,produto,categoria,quantidade,preco_unitario
-2024-01-05,Notebook Dell,Eletrônicos,3,3500.00
-2024-01-07,Mouse Logitech,Eletrônicos,15,120.00
-2024-01-08,Cadeira Gamer,Móveis,2,1800.00
-2024-01-10,Monitor LG 27",Eletrônicos,5,1200.00
-2024-01-12,Teclado Mecânico,Eletrônicos,8,350.00
-2024-01-15,Mesa Escritório,Móveis,3,950.00
-2024-01-18,Headset Sony,Eletrônicos,10,280.00
-2024-01-20,Webcam Logitech,Eletrônicos,7,450.00
-2024-01-22,Estante de Aço,Móveis,4,620.00
-2024-01-25,Notebook Dell,Eletrônicos,2,3500.00
-2024-02-02,Impressora HP,Eletrônicos,3,890.00
-2024-02-05,Cadeira Gamer,Móveis,5,1800.00
-2024-02-07,Mouse Logitech,Eletrônicos,20,120.00
-2024-02-10,Caneta Pilot (cx),Papelaria,30,25.00
-2024-02-12,Papel A4 (resma),Papelaria,50,28.00
-2024-02-15,Monitor LG 27",Eletrônicos,4,1200.00
-2024-02-18,Grampeador,Papelaria,12,45.00
-2024-02-20,Notebook Dell,Eletrônicos,4,3500.00
-2024-02-22,Mesa Escritório,Móveis,2,950.00
-2024-02-25,Headset Sony,Eletrônicos,6,280.00
-2024-03-01,Teclado Mecânico,Eletrônicos,5,350.00
-2024-03-05,Webcam Logitech,Eletrônicos,9,450.00
-2024-03-08,Caneta Pilot (cx),Papelaria,25,25.00
-2024-03-10,Cadeira Gamer,Móveis,3,1800.00
-2024-03-12,Impressora HP,Eletrônicos,2,890.00
-2024-03-15,Papel A4 (resma),Papelaria,40,28.00
-2024-03-18,Monitor LG 27",Eletrônicos,6,1200.00
-2024-03-20,Mouse Logitech,Eletrônicos,18,120.00
-2024-03-22,Notebook Dell,Eletrônicos,5,3500.00
-2024-03-25,Mesa Escritório,Móveis,1,950.00
+data,produto,categoria,quantidade,preco_unitario,vendedor,regiao
+2024-01-05,Notebook Dell,Eletrônicos,3,3500.00,Ana Silva,Sudeste
+2024-01-07,Mouse Logitech,Eletrônicos,15,120.00,Bruno Costa,Sul
+2024-01-08,Cadeira Gamer,Móveis,2,1800.00,Carlos Mendes,Nordeste
+2024-01-10,Monitor LG 27",Eletrônicos,5,1200.00,Ana Silva,Sudeste
+2024-01-12,Teclado Mecânico,Eletrônicos,8,350.00,Diana Rocha,Centro-Oeste
+2024-01-15,Mesa Escritório,Móveis,3,950.00,Bruno Costa,Sul
+2024-01-18,Headset Sony,Eletrônicos,10,280.00,Carlos Mendes,Nordeste
+2024-01-20,Webcam Logitech,Eletrônicos,7,450.00,Ana Silva,Sudeste
+2024-01-22,Papel A4 (resma),Papelaria,50,28.00,Diana Rocha,Centro-Oeste
+2024-01-25,Notebook Dell,Eletrônicos,2,3500.00,Bruno Costa,Sul
+2024-02-02,Impressora HP,Eletrônicos,3,890.00,Carlos Mendes,Nordeste
+2024-02-05,Cadeira Gamer,Móveis,5,1800.00,Ana Silva,Sudeste
+2024-02-07,Mouse Logitech,Eletrônicos,20,120.00,Diana Rocha,Centro-Oeste
+2024-02-10,Caneta Pilot (cx),Papelaria,30,25.00,Bruno Costa,Sul
+2024-02-12,Papel A4 (resma),Papelaria,50,28.00,Carlos Mendes,Nordeste
+2024-02-15,Monitor LG 27",Eletrônicos,4,1200.00,Ana Silva,Sudeste
+2024-02-18,Grampeador,Papelaria,12,45.00,Diana Rocha,Centro-Oeste
+2024-02-20,Notebook Dell,Eletrônicos,4,3500.00,Bruno Costa,Sul
+2024-02-22,Mesa Escritório,Móveis,2,950.00,Carlos Mendes,Nordeste
+2024-02-25,Headset Sony,Eletrônicos,6,280.00,Ana Silva,Sudeste
+2024-03-01,Teclado Mecânico,Eletrônicos,5,350.00,Diana Rocha,Centro-Oeste
+2024-03-05,Webcam Logitech,Eletrônicos,9,450.00,Bruno Costa,Sul
+2024-03-08,Caneta Pilot (cx),Papelaria,25,25.00,Carlos Mendes,Nordeste
+2024-03-10,Cadeira Gamer,Móveis,3,1800.00,Ana Silva,Sudeste
+2024-03-12,Impressora HP,Eletrônicos,2,890.00,Diana Rocha,Centro-Oeste
+2024-03-15,Papel A4 (resma),Papelaria,40,28.00,Bruno Costa,Sul
+2024-03-18,Monitor LG 27",Eletrônicos,6,1200.00,Carlos Mendes,Nordeste
+2024-03-20,Mouse Logitech,Eletrônicos,18,120.00,Ana Silva,Sudeste
+2024-03-22,Notebook Dell,Eletrônicos,5,3500.00,Diana Rocha,Centro-Oeste
+2024-03-25,Mesa Escritório,Móveis,1,950.00,Bruno Costa,Sul
+2024-04-03,Tablet Samsung,Eletrônicos,4,1800.00,Carlos Mendes,Nordeste
+2024-04-05,Mouse Logitech,Eletrônicos,22,120.00,Ana Silva,Sudeste
+2024-04-08,Notebook Dell,Eletrônicos,4,3500.00,Diana Rocha,Centro-Oeste
+2024-04-10,Cadeira Gamer,Móveis,4,1800.00,Bruno Costa,Sul
+2024-04-12,Sofá Executivo,Móveis,2,2200.00,Carlos Mendes,Nordeste
+2024-04-15,Papel A4 (resma),Papelaria,60,28.00,Ana Silva,Sudeste
+2024-04-18,Monitor LG 27",Eletrônicos,5,1200.00,Diana Rocha,Centro-Oeste
+2024-04-20,Headset Sony,Eletrônicos,12,280.00,Bruno Costa,Sul
+2024-04-22,Grampeador,Papelaria,15,45.00,Carlos Mendes,Nordeste
+2024-04-25,Webcam Logitech,Eletrônicos,8,450.00,Ana Silva,Sudeste
+2024-05-02,Notebook Dell,Eletrônicos,6,3500.00,Diana Rocha,Centro-Oeste
+2024-05-05,Teclado Mecânico,Eletrônicos,10,350.00,Bruno Costa,Sul
+2024-05-08,Cadeira Gamer,Móveis,5,1800.00,Carlos Mendes,Nordeste
+2024-05-10,Mesa Escritório,Móveis,4,950.00,Ana Silva,Sudeste
+2024-05-12,Caneta Pilot (cx),Papelaria,35,25.00,Diana Rocha,Centro-Oeste
+2024-05-15,Impressora HP,Eletrônicos,4,890.00,Bruno Costa,Sul
+2024-05-18,Monitor LG 27",Eletrônicos,7,1200.00,Carlos Mendes,Nordeste
+2024-05-20,Mouse Logitech,Eletrônicos,25,120.00,Ana Silva,Sudeste
+2024-05-22,Papel A4 (resma),Papelaria,55,28.00,Diana Rocha,Centro-Oeste
+2024-05-25,Tablet Samsung,Eletrônicos,3,1800.00,Bruno Costa,Sul
+2024-06-02,Notebook Dell,Eletrônicos,5,3500.00,Carlos Mendes,Nordeste
+2024-06-05,Webcam Logitech,Eletrônicos,12,450.00,Ana Silva,Sudeste
+2024-06-08,Cadeira Gamer,Móveis,6,1800.00,Diana Rocha,Centro-Oeste
+2024-06-10,Sofá Executivo,Móveis,3,2200.00,Bruno Costa,Sul
+2024-06-12,Headset Sony,Eletrônicos,15,280.00,Carlos Mendes,Nordeste
+2024-06-15,Monitor LG 27",Eletrônicos,8,1200.00,Ana Silva,Sudeste
+2024-06-18,Teclado Mecânico,Eletrônicos,12,350.00,Diana Rocha,Centro-Oeste
+2024-06-20,Papel A4 (resma),Papelaria,70,28.00,Bruno Costa,Sul
+2024-06-22,Impressora HP,Eletrônicos,3,890.00,Carlos Mendes,Nordeste
+2024-06-25,Grampeador,Papelaria,20,45.00,Ana Silva,Sudeste
+2024-07-03,Notebook Dell,Eletrônicos,7,3500.00,Diana Rocha,Centro-Oeste
+2024-07-05,Mouse Logitech,Eletrônicos,30,120.00,Bruno Costa,Sul
+2024-07-08,Tablet Samsung,Eletrônicos,5,1800.00,Carlos Mendes,Nordeste
+2024-07-10,Cadeira Gamer,Móveis,7,1800.00,Ana Silva,Sudeste
+2024-07-12,Mesa Escritório,Móveis,5,950.00,Diana Rocha,Centro-Oeste
+2024-07-15,Monitor LG 27",Eletrônicos,9,1200.00,Bruno Costa,Sul
+2024-07-18,Headset Sony,Eletrônicos,18,280.00,Carlos Mendes,Nordeste
+2024-07-20,Teclado Mecânico,Eletrônicos,14,350.00,Ana Silva,Sudeste
+2024-07-22,Papel A4 (resma),Papelaria,80,28.00,Diana Rocha,Centro-Oeste
+2024-07-25,Caneta Pilot (cx),Papelaria,45,25.00,Bruno Costa,Sul
+2024-08-02,Notebook Dell,Eletrônicos,8,3500.00,Carlos Mendes,Nordeste
+2024-08-05,Webcam Logitech,Eletrônicos,15,450.00,Ana Silva,Sudeste
+2024-08-08,Sofá Executivo,Móveis,3,2200.00,Diana Rocha,Centro-Oeste
+2024-08-10,Impressora HP,Eletrônicos,5,890.00,Bruno Costa,Sul
+2024-08-12,Monitor LG 27",Eletrônicos,10,1200.00,Carlos Mendes,Nordeste
+2024-08-15,Mouse Logitech,Eletrônicos,28,120.00,Ana Silva,Sudeste
+2024-08-18,Cadeira Gamer,Móveis,8,1800.00,Diana Rocha,Centro-Oeste
+2024-08-20,Tablet Samsung,Eletrônicos,6,1800.00,Bruno Costa,Sul
+2024-08-22,Papel A4 (resma),Papelaria,75,28.00,Carlos Mendes,Nordeste
+2024-08-25,Grampeador,Papelaria,22,45.00,Ana Silva,Sudeste
+2024-09-03,Notebook Dell,Eletrônicos,9,3500.00,Diana Rocha,Centro-Oeste
+2024-09-05,Teclado Mecânico,Eletrônicos,16,350.00,Bruno Costa,Sul
+2024-09-08,Headset Sony,Eletrônicos,20,280.00,Carlos Mendes,Nordeste
+2024-09-10,Monitor LG 27",Eletrônicos,11,1200.00,Ana Silva,Sudeste
+2024-09-12,Mesa Escritório,Móveis,6,950.00,Diana Rocha,Centro-Oeste
+2024-09-15,Cadeira Gamer,Móveis,9,1800.00,Bruno Costa,Sul
+2024-09-18,Caneta Pilot (cx),Papelaria,50,25.00,Carlos Mendes,Nordeste
+2024-09-20,Mouse Logitech,Eletrônicos,35,120.00,Ana Silva,Sudeste
+2024-09-22,Tablet Samsung,Eletrônicos,7,1800.00,Diana Rocha,Centro-Oeste
+2024-09-25,Papel A4 (resma),Papelaria,90,28.00,Bruno Costa,Sul
+2024-10-03,Notebook Dell,Eletrônicos,12,3500.00,Carlos Mendes,Nordeste
+2024-10-05,Webcam Logitech,Eletrônicos,18,450.00,Ana Silva,Sudeste
+2024-10-08,Sofá Executivo,Móveis,4,2200.00,Diana Rocha,Centro-Oeste
+2024-10-10,Monitor LG 27",Eletrônicos,13,1200.00,Bruno Costa,Sul
+2024-10-12,Impressora HP,Eletrônicos,6,890.00,Carlos Mendes,Nordeste
+2024-10-15,Cadeira Gamer,Móveis,10,1800.00,Ana Silva,Sudeste
+2024-10-18,Mouse Logitech,Eletrônicos,40,120.00,Diana Rocha,Centro-Oeste
+2024-10-20,Teclado Mecânico,Eletrônicos,18,350.00,Bruno Costa,Sul
+2024-10-22,Papel A4 (resma),Papelaria,100,28.00,Carlos Mendes,Nordeste
+2024-10-25,Tablet Samsung,Eletrônicos,8,1800.00,Ana Silva,Sudeste
+2024-11-02,Notebook Dell,Eletrônicos,15,3500.00,Diana Rocha,Centro-Oeste
+2024-11-05,Tablet Samsung,Eletrônicos,12,1800.00,Bruno Costa,Sul
+2024-11-08,Monitor LG 27",Eletrônicos,16,1200.00,Carlos Mendes,Nordeste
+2024-11-10,Cadeira Gamer,Móveis,14,1800.00,Ana Silva,Sudeste
+2024-11-12,Headset Sony,Eletrônicos,30,280.00,Diana Rocha,Centro-Oeste
+2024-11-15,Mouse Logitech,Eletrônicos,50,120.00,Bruno Costa,Sul
+2024-11-18,Sofá Executivo,Móveis,6,2200.00,Carlos Mendes,Nordeste
+2024-11-20,Teclado Mecânico,Eletrônicos,22,350.00,Ana Silva,Sudeste
+2024-11-22,Webcam Logitech,Eletrônicos,20,450.00,Diana Rocha,Centro-Oeste
+2024-11-25,Papel A4 (resma),Papelaria,120,28.00,Bruno Costa,Sul
+2024-11-28,Grampeador,Papelaria,30,45.00,Carlos Mendes,Nordeste
+2024-12-02,Notebook Dell,Eletrônicos,18,3500.00,Ana Silva,Sudeste
+2024-12-05,Monitor LG 27",Eletrônicos,15,1200.00,Diana Rocha,Centro-Oeste
+2024-12-08,Tablet Samsung,Eletrônicos,14,1800.00,Bruno Costa,Sul
+2024-12-10,Cadeira Gamer,Móveis,12,1800.00,Carlos Mendes,Nordeste
+2024-12-12,Headset Sony,Eletrônicos,25,280.00,Ana Silva,Sudeste
+2024-12-15,Mesa Escritório,Móveis,8,950.00,Diana Rocha,Centro-Oeste
+2024-12-18,Mouse Logitech,Eletrônicos,45,120.00,Bruno Costa,Sul
+2024-12-20,Sofá Executivo,Móveis,7,2200.00,Carlos Mendes,Nordeste
+2024-12-22,Impressora HP,Eletrônicos,8,890.00,Ana Silva,Sudeste
+2024-12-24,Papel A4 (resma),Papelaria,110,28.00,Diana Rocha,Centro-Oeste
+2024-12-26,Caneta Pilot (cx),Papelaria,60,25.00,Bruno Costa,Sul
