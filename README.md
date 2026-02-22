@@ -4,7 +4,6 @@
 [![pandas](https://img.shields.io/badge/pandas-2.x-150458?style=flat&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![matplotlib](https://img.shields.io/badge/matplotlib-3.x-11557C?style=flat)](https://matplotlib.org/)
 [![ReportLab](https://img.shields.io/badge/ReportLab-4.x-E74C3C?style=flat)](https://www.reportlab.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-22C55E?style=flat)](LICENSE)
 
 Automated report generation pipeline: reads raw sales data from a CSV file and produces a multi-page, print-ready PDF report — with embedded charts, KPI cards, cross-dimensional pivot tables, and per-page footer navigation.
 
@@ -18,7 +17,7 @@ The generated PDF contains a cover page and five analytical sections:
 
 | Section | Content |
 |---------|---------|
-| **Cover** | KPI cards (total revenue, transactions, avg ticket, YoY growth) + highlights table |
+| **Cover** | KPI cards (total revenue, transactions, avg ticket, Jan→Dec growth) + highlights table |
 | **1. Monthly Trend** | Revenue line chart with area fill + MoM growth bar chart + monthly breakdown table |
 | **2. Category Analysis** | Pie chart (revenue share) + category table with ticket médio |
 | **3. Product Performance** | Horizontal bar chart (top 5) + full product ranking table |
@@ -147,9 +146,8 @@ The script is organized in six clearly separated stages:
 - **Stage 5 — Content assembly**: add, remove, or reorder sections in the `story` list
 - **Stage 6 — PDF build**: extend to batch generation (one PDF per region/month), email delivery, or cloud storage upload
 
-Common extensions available on request:
+Common extensions:
 - Custom logo and company branding
 - Date range filtering via CLI arguments
 - Batch processing (generate one PDF per month/region/salesperson)
 - Email delivery via SMTP or SendGrid
-
