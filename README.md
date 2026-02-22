@@ -153,12 +153,3 @@ Common extensions available on request:
 - Batch processing (generate one PDF per month/region/salesperson)
 - Email delivery via SMTP or SendGrid
 
----
-
-## License
-
-[MIT](LICENSE) — free to use, modify, and distribute.
-
----
-
-*Built by a Python automation specialist. Open to freelance projects involving data pipelines, report automation, and document generation.*
